@@ -95,8 +95,8 @@ def show_progress():
 
 #  Load emoji base names
 default_bases = [
-     "win on top🖤", "giga on top💜", "win on top💚", "apex on top💙", "BANE on top💛", "csnv on top🧡",
-    "boxhi on top💞", "win on top💓", "csnv on top💗", "csnv on top💖", "csnv on top💘", "barbie randi haip💝", "barbie randi haip💕", "csnv on top💔"
+     "spidy on top🖤", "spidy  on top💜", "spidy on top💚", "spidy on top💙", "spidy on top💛", "spidy on top🧡",
+    "spidy on top💞", "spidy on top💓", "spidy on top💗", "spidy on top💖", "spidy on top💘", "lighter randi haip💝", "lighter randi haip💕", "spidy on top💔"
 ]
 try:
     with open("csnv_bases.txt", "r", encoding="utf-8") as f:
@@ -233,3 +233,4 @@ except KeyboardInterrupt:
     os.system("cls" if os.name == "nt" else "clear")
     logo()
     print(background_256['bright_red'] + "\n Done renaming." + COLORS['reset'])
+
